@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
   http_response_code(200);
   exit();
 }
-
+// asd
 date_default_timezone_set('Asia/Manila');
 
 $apiPath = $_SERVER['DOCUMENT_ROOT'] . '/remindapi/api';
